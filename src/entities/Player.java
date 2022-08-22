@@ -57,7 +57,7 @@ public class Player extends Entity{
 			playerAction = RUNNING;
 		}
 			else {
-				playerAction = IDLE;
+				playerAction = RUNNING;
 			}
 		if(attacking) {
 			playerAction = ATTACK_1;
