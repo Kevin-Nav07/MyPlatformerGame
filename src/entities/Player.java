@@ -58,6 +58,7 @@ public class Player extends Entity{
 		}
 			else {
 				playerAction = IDLE; //to signify player idle
+				//amother comment
 			}
 		if(attacking) {
 			playerAction = ATTACK_1;
